@@ -46,4 +46,5 @@ public class User
             field = value;
         }
     }
+    public List<Playlist> Playlists { get; set; }
 }
