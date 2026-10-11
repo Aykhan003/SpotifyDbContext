@@ -11,7 +11,7 @@ public class User
         get { return field; }
         set
         {
-            if (field.Length < 8)
+            if (value.Length < 8)
             {
                 throw new ArgumentException("Password must be at least 8 characters long.");
             }

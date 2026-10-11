@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ConsoleApp59.Data;
 
-internal class SpotifyTaskDbContext : DbContext
+public class SpotifyTaskDbContext : DbContext
 {
     override protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
